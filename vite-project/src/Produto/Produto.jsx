@@ -1,4 +1,5 @@
 import './Produto.css'
+import { Link } from 'react-router-dom';
 
 function Produto() {
   
@@ -8,6 +9,8 @@ function Produto() {
     <input id="busca" type="text" placeholder="busca" />
     <button id="login">Fazer Login</button>
     <button id="carrinho">Carrinho</button>
+    <button id="carrinho">Fale Conosco</button>
+
     <div id="produto">
         <div id="detalhes">
             <dl id="lista-detalhes">
@@ -40,8 +43,9 @@ function Produto() {
                     <p class="precoprodrel">Preço R$ 30,00</p>
             </div>
 
-
+         
         </div>
+        <Link to="/">Voltar para o Início</Link>
     </div>
 
     </>
