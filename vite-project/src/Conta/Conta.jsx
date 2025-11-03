@@ -1,4 +1,5 @@
 import foto from './assets/foto.png'
+import { Link } from 'react-router-dom';
 
 function Conta() {
   
@@ -26,6 +27,9 @@ function Conta() {
     <idv>
         Informe seu endereço: <input placeholder="Endereço" type="text"></input>
     </idv>
+    <div>
+        <Link to="/pedidos"> Clique para acessar seus pedidos </Link>
+    </div>
     </>
   )
 }
