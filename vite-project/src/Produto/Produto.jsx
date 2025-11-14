@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Produto() {
   return (
-    <>
+    <div className="pagina-produto-container">
       <div id="produto">
         <div id="detalhes">
           <dl id="lista-detalhes">
@@ -49,7 +49,7 @@ function Produto() {
         </div>
       </div>
       <Link to="/">Voltar para o Início</Link>
-    </>
+    </div>
   );
 }
 

@@ -24,6 +24,21 @@
 
 #tiulorelacionados {
   text-align: center;
+  margin-top: auto;
+}
+
+.pagina-produto-container {
+  /* Ativa os super-poderes de alinhamento */
+  display: flex;
+  
+  /* Diz para os poderes alinharem em coluna (um em cima do outro) */
+  flex-direction: column;
+
+  /* IMPORTANTE: Força a mochila a ter a altura da tela 
+     (descontando sua barra de navegação. 
+     Ajuste 60px para a altura exata da sua navbar!)
+  */
+  min-height: calc(100vh - 60px); 
 }
 
 /*divs */
@@ -37,13 +52,11 @@
 }
 
 #relacionados {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 16px;
   border-width: 3px;
   border-color: rgb(1, 73, 228);
   border-style: solid;
-
 }
 
 #detalhes {
