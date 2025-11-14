@@ -26,26 +26,33 @@ function Produto() {
       <div id="relacionados">
         <div class="prodrelacionado">
           <p class="precoprodrel">Preço R$ 17,00</p>
+          <button> Adicionar ao carrinho</button>
+
         </div>
 
         <div class="prodrelacionado">
           <p class="precoprodrel">Preço R$ 22,00</p>
+          <button> Adicionar ao carrinho</button>
         </div>
 
         <div class="prodrelacionado">
           <p class="precoprodrel">Preço R$ 2022,00</p>
+          <button> Adicionar ao carrinho</button>
         </div>
 
         <div class="prodrelacionado">
           <p class="precoprodrel">Preço R$ 17,00</p>
+          <button> Adicionar ao carrinho</button>
         </div>
 
         <div class="prodrelacionado">
           <p class="precoprodrel">Preço R$ 22,00</p>
+          <button> Adicionar ao carrinho</button>
         </div>
 
         <div class="prodrelacionado">
           <p class="precoprodrel">Preço R$ 2022,00</p>
+          <button> Adicionar ao carrinho</button>
         </div>
       </div>
       <Link to="/">Voltar para o Início</Link>
