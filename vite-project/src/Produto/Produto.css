@@ -1,66 +1,60 @@
-#logo
-{
-    position: absolute;
-    top: 0;
-    font-size: 20px;
+/*botoes 
+#logo {
+  top: 0;
+  font-size: 20px;
 }
 
-#busca
-{
-    position: absolute;
-    top: 0;
-    margin-left: 50%;
-    margin-right: 50%;
-        
+#busca {
+  top: 0;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
-#login
-{
-    position: absolute;
-    top: 0;
-    margin-left: 65%;
-        
+#login {
+  top: 0;
+  margin-left: 65%;
 }
 
-#carrinho
-{
-    position: absolute;
-    top: 0;
-    margin-left: 75%;
-        
+#carrinho {
+  top: 0;
+  margin-left: 75%;
 }
 
-#produto 
-{
-            width: 100%; /* Faz ocupar 100% da largura disponível */
-            border-radius: 8px; /* Cantos arredondados */
-            position: absolute;
-            /* Isso garante que o padding não "estoure" a largura de 100% */
-            box-sizing: border-box; 
-        
+/*titulos */
+
+#tiulorelacionados {
+  text-align: center;
 }
 
+/*divs */
+#produto {
+  border-radius: 8px; /* Cantos arredondados */
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: rgb(44, 235, 6);
+  border-style: solid;
+
+}
+
+#relacionados {
+  display: grid;
+  justify-content: bottom;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
 
 #detalhes
 {
-    margin-left: 80%;
-
-}
-
-#relacionados
-{
-    display: flex;
-}
-
-.prodrelacionado
-{
-    border-width: 1px;           
-    border-style: solid;
-    border-radius: 1px;
     border-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
 }
 
 
 
-
-
+.prodrelacionado {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: aliceblue;
+}
