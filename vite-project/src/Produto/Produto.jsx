@@ -1,5 +1,3 @@
-
-
 import "./Produto.css";
 import { Link } from "react-router-dom";
 
@@ -22,35 +20,35 @@ function Produto() {
             <dd>Preto </dd>
           </dl>
         </div>
-
-        <h2 id="tiulorelacionados">Produtos relacionados</h2>
-        <div id="relacionados">
-          <div class="prodrelacionado">
-            <p class="precoprodrel">Preço R$ 17,00</p>
-          </div>
-
-          <div class="prodrelacionado">
-            <p class="precoprodrel">Preço R$ 22,00</p>
-          </div>
-
-          <div class="prodrelacionado">
-            <p class="precoprodrel">Preço R$ 2022,00</p>
-          </div>
-
-          <div class="prodrelacionado">
-            <p class="precoprodrel">Preço R$ 17,00</p>
-          </div>
-
-          <div class="prodrelacionado">
-            <p class="precoprodrel">Preço R$ 22,00</p>
-          </div>
-
-          <div class="prodrelacionado">
-            <p class="precoprodrel">Preço R$ 2022,00</p>
-          </div>
-        </div>
-        <Link to="/">Voltar para o Início</Link>
       </div>
+
+      <h2 id="tiulorelacionados">Produtos relacionados</h2>
+      <div id="relacionados">
+        <div class="prodrelacionado">
+          <p class="precoprodrel">Preço R$ 17,00</p>
+        </div>
+
+        <div class="prodrelacionado">
+          <p class="precoprodrel">Preço R$ 22,00</p>
+        </div>
+
+        <div class="prodrelacionado">
+          <p class="precoprodrel">Preço R$ 2022,00</p>
+        </div>
+
+        <div class="prodrelacionado">
+          <p class="precoprodrel">Preço R$ 17,00</p>
+        </div>
+
+        <div class="prodrelacionado">
+          <p class="precoprodrel">Preço R$ 22,00</p>
+        </div>
+
+        <div class="prodrelacionado">
+          <p class="precoprodrel">Preço R$ 2022,00</p>
+        </div>
+      </div>
+      <Link to="/">Voltar para o Início</Link>
     </>
   );
 }

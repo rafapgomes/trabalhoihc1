@@ -38,19 +38,19 @@
 
 #relacionados {
   display: grid;
-  justify-content: bottom;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  border-width: 3px;
+  border-color: rgb(1, 73, 228);
+  border-style: solid;
+
 }
 
-#detalhes
-{
-    border-color: aliceblue;
-    border-width: 1px;
-    border-style: solid;
+#detalhes {
+  border-color: aliceblue;
+  border-width: 1px;
+  border-style: solid;
 }
-
-
 
 .prodrelacionado {
   border-width: 1px;
