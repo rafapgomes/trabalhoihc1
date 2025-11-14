@@ -6,9 +6,10 @@ function Navbar() {
             
             <nav className="navbar">
             <ul className="navbar-links">
-            <li> <NavLink to="/">Home</NavLink> </li>
+            <li> <NavLink to="/">Inicio</NavLink> </li>
             <li> <NavLink to="/conta">Conta</NavLink> </li>
             <li> <NavLink to="/pedidos">Pedidos</NavLink> </li>
+            <input id="busca" type="text" placeholder="busca" />
 
             </ul>
             </nav>
