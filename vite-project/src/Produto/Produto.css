@@ -1,68 +1,47 @@
-/*botoes 
-#logo {
-  top: 0;
-  font-size: 20px;
-}
-
-#busca {
-  top: 0;
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
-#login {
-  top: 0;
-  margin-left: 65%;
-}
-
-#carrinho {
-  top: 0;
-  margin-left: 75%;
-}
-
-/*titulos */
-
-#tiulorelacionados {
-  text-align: center;
-  margin-top: auto;
-}
-
 .pagina-produto-container {
-  /* Ativa os super-poderes de alinhamento */
   display: flex;
-  
-  /* Diz para os poderes alinharem em coluna (um em cima do outro) */
   flex-direction: column;
-
-  /* IMPORTANTE: Força a mochila a ter a altura da tela 
-     (descontando sua barra de navegação. 
-     Ajuste 60px para a altura exata da sua navbar!)
-  */
+  box-sizing: border-box;
   min-height: calc(100vh - 60px); 
+  /*
+  border-width: 3px;
+  border-color: rgb(233, 129, 9);
+  border-style: solid;
+  */
 }
 
 /*divs */
 #produto {
   border-radius: 8px; /* Cantos arredondados */
   box-sizing: border-box;
-  border-width: 3px;
+  /*border-width: 3px;
   border-color: rgb(44, 235, 6);
   border-style: solid;
-
+  */
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 #relacionados {
   display: flex;
   gap: 16px;
   border-width: 3px;
+  /*a
   border-color: rgb(1, 73, 228);
   border-style: solid;
+  */
+  justify-content: center;
+
 }
 
 #detalhes {
-  border-color: aliceblue;
+  /*
+  border-color: rgb(20, 114, 196);
   border-width: 1px;
   border-style: solid;
+  */
+  padding-right: 90px;
 }
 
 #lista-detalhes
@@ -75,4 +54,29 @@
   border-style: solid;
   border-radius: 1px;
   border-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*imagens */
+.imgcalca {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.imgcalcarel {
+  width: 90px;
+  height: 90px;
+}
+
+/* titulos */
+
+#titulorel
+{
+  margin-top: auto;
+  text-align: center;
 }

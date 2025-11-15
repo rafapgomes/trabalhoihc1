@@ -1,10 +1,11 @@
 import "./Produto.css";
 import { Link } from "react-router-dom";
-
+import imagemCalca from "./calca.jpeg";
 function Produto() {
   return (
     <div className="pagina-produto-container">
       <div id="produto">
+        <img src={imagemCalca} alt="Foto do Produto" className="imgcalca"></img>
         <div id="detalhes">
           <dl id="lista-detalhes">
             <dt>Quant. Itens:</dt>
@@ -21,40 +22,72 @@ function Produto() {
           </dl>
         </div>
       </div>
+        <h2 id="titulorel">Produtos relacionados</h2>
+        <div id="relacionados">
+          <div class="prodrelacionado">
+            <img
+              src={imagemCalca}
+              alt="Foto do Produto"
+              className="imgcalcarel"
+            ></img>
 
-      <h2 id="tiulorelacionados">Produtos relacionados</h2>
-      <div id="relacionados">
-        <div class="prodrelacionado">
-          <p class="precoprodrel">Preço R$ 17,00</p>
-          <button> Adicionar ao carrinho</button>
+            <p class="precoprodrel">Preço R$ 17,00</p>
+            <button> Adicionar ao carrinho</button>
+          </div>
+          <div class="prodrelacionado">
+            <img
+              src={imagemCalca}
+              alt="Foto do Produto"
+              className="imgcalcarel"
+            ></img>
 
+            <p class="precoprodrel">Preço R$ 22,00</p>
+            <button> Adicionar ao carrinho</button>
+          </div>
+
+          <div class="prodrelacionado">
+            <img
+              src={imagemCalca}
+              alt="Foto do Produto"
+              className="imgcalcarel"
+            ></img>
+            <p class="precoprodrel">Preço R$ 2022,00</p>
+            <button> Adicionar ao carrinho</button>
+          </div>
+
+          <div class="prodrelacionado">
+            <img
+              src={imagemCalca}
+              alt="Foto do Produto"
+              className="imgcalcarel"
+            ></img>
+
+            <p class="precoprodrel">Preço R$ 17,00</p>
+            <button> Adicionar ao carrinho</button>
+          </div>
+
+          <div class="prodrelacionado">
+            <img
+              src={imagemCalca}
+              alt="Foto do Produto"
+              className="imgcalcarel"
+            ></img>
+
+            <p class="precoprodrel">Preço R$ 22,00</p>
+            <button> Adicionar ao carrinho</button>
+          </div>
+
+          <div class="prodrelacionado">
+            <img
+              src={imagemCalca}
+              alt="Foto do Produto"
+              className="imgcalcarel"
+            ></img>
+
+            <p class="precoprodrel">Preço R$ 2022,00</p>
+            <button> Adicionar ao carrinho</button>
+          </div>
         </div>
-
-        <div class="prodrelacionado">
-          <p class="precoprodrel">Preço R$ 22,00</p>
-          <button> Adicionar ao carrinho</button>
-        </div>
-
-        <div class="prodrelacionado">
-          <p class="precoprodrel">Preço R$ 2022,00</p>
-          <button> Adicionar ao carrinho</button>
-        </div>
-
-        <div class="prodrelacionado">
-          <p class="precoprodrel">Preço R$ 17,00</p>
-          <button> Adicionar ao carrinho</button>
-        </div>
-
-        <div class="prodrelacionado">
-          <p class="precoprodrel">Preço R$ 22,00</p>
-          <button> Adicionar ao carrinho</button>
-        </div>
-
-        <div class="prodrelacionado">
-          <p class="precoprodrel">Preço R$ 2022,00</p>
-          <button> Adicionar ao carrinho</button>
-        </div>
-      </div>
       <Link to="/">Voltar para o Início</Link>
     </div>
   );

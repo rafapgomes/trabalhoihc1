@@ -11,9 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+#root
+{
   flex-grow: 1;
 }
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,10 +30,9 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  justify-content: center;
-  border-width: 3px;
-  border-color: rgb(235, 6, 216);
-  border-style: solid;
+  width: 100%;
+  flex-grow: 1;
+  
 }
 
 h1 {
