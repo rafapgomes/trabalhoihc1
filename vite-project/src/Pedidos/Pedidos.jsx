@@ -1,15 +1,7 @@
 function Pedidos() {
   
   return (
-    <>
-    <div>
-    <h1 id="logo">Igreja Nosso Senhor</h1>
-    <input id="busca" type="text" placeholder="busca" />
-    <button id="carrinho">Carrinho</button>
-    <button id="contato">Fale Conosco</button>
-    </div>
-
-    
+    <> 
     <h2 id="Seus pedidos">Seus pedidos</h2>
     <div className="tabela">
         <table>

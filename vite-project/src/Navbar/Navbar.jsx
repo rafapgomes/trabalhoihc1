@@ -1,6 +1,8 @@
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import iconeCarrinho from "./carrinho.png";
+import iconeConta from "./17487663.png";
+
 function Navbar() {
   return (
     <>
@@ -10,20 +12,21 @@ function Navbar() {
             <NavLink to="/">Inicio</NavLink>
           </li>
           <li>
-            <NavLink to="/conta">Conta</NavLink>
-          </li>
-          <li>
-            <NavLink to="/pedidos">Pedidos</NavLink>
-          </li>
-          <li>
             <input id="busca" type="text" placeholder="busca" />
           </li>
-          <li id="carrinho-navbar">
+          <li className="icons-navbar">
+            <NavLink to="/conta">
+              <img
+                src={iconeConta}
+                alt="Carrinho de compras"
+                className="iconsimg"
+              />
+            </NavLink>
             <NavLink to="/pedidos">
               <img
                 src={iconeCarrinho}
                 alt="Carrinho de compras"
-                className="icone-carrinho"
+                className="iconsimg"
               />
             </NavLink>
           </li>
