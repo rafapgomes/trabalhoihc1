@@ -22,7 +22,7 @@ function Produto() {
           </dl>
         </div>
       </div>
-        <h2 id="titulorel">Produtos relacionados</h2>
+      <h2 id="titulorel">Produtos relacionados</h2>
         <div id="relacionados">
           <div class="prodrelacionado">
             <img
