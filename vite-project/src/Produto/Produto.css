@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  min-height: calc(100vh - 60px); 
+  min-height: calc(100vh - 60px);
   /*
   border-width: 3px;
   border-color: rgb(233, 129, 9);
@@ -14,40 +14,40 @@
 #produto {
   border-radius: 8px; /* Cantos arredondados */
   box-sizing: border-box;
-  /*border-width: 3px;
-  border-color: rgb(44, 235, 6);
-  border-style: solid;
-  */
+  position: relative;
   display: flex;
-  justify-content: flex-end;
-  justify-content: space-between;
+  align-items: center;
 }
 
 #relacionados {
   display: flex;
   gap: 16px;
-  border-width: 3px;
-  /*a
-  border-color: rgb(1, 73, 228);
-  border-style: solid;
-  */
   justify-content: center;
-
 }
 
 #detalhes {
-  /*
-  border-color: rgb(20, 114, 196);
-  border-width: 1px;
-  border-style: solid;
-  */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   padding-right: 90px;
 }
 
-#lista-detalhes
+#preco
 {
-    text-align: right;
-    padding-right: 20px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 35%;
+  border-style: solid;
+  border-color: antiquewhite;
+  border-width: 2px;
+}
+#adicionar-carrinho{
+  align-items: bottom;
+}
+#lista-detalhes {
+  padding-right: 20px;
 }
 .prodrelacionado {
   border-width: 1px;
@@ -61,22 +61,21 @@
 
 /*imagens */
 .imgcalca {
-  width: 200px;
-  height: 200px;
-  object-fit: cover; 
-  padding-top: 10px;
-  padding-left: 10px;
+  width: 13%;
+  height: 13%;
+  object-fit: cover;
+  padding-top: 2%;
+  padding-left: 14%;
 }
 
 .imgcalcarel {
-  width: 90px;
-  height: 90px;
+  width: 150px;
+  height: 150px;
 }
 
 /* titulos */
 
-#titulorel
-{
+#titulorel {
   margin-top: auto;
   text-align: center;
 }

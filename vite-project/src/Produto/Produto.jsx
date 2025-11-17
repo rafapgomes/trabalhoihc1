@@ -21,73 +21,77 @@ function Produto() {
             <dd>Preto </dd>
           </dl>
         </div>
+        <div id="preco">
+          Preço: R$ 20,00
+          <button id="adicionar-carrinho">Adicionar ao carrinho</button>
+        </div>
       </div>
       <h2 id="titulorel">Produtos relacionados</h2>
-        <div id="relacionados">
-          <div class="prodrelacionado">
-            <img
-              src={imagemCalca}
-              alt="Foto do Produto"
-              className="imgcalcarel"
-            ></img>
+      <div id="relacionados">
+        <div class="prodrelacionado">
+          <img
+            src={imagemCalca}
+            alt="Foto do Produto"
+            className="imgcalcarel"
+          ></img>
 
-            <p class="precoprodrel">Preço R$ 17,00</p>
-            <button> Adicionar ao carrinho</button>
-          </div>
-          <div class="prodrelacionado">
-            <img
-              src={imagemCalca}
-              alt="Foto do Produto"
-              className="imgcalcarel"
-            ></img>
-
-            <p class="precoprodrel">Preço R$ 22,00</p>
-            <button> Adicionar ao carrinho</button>
-          </div>
-
-          <div class="prodrelacionado">
-            <img
-              src={imagemCalca}
-              alt="Foto do Produto"
-              className="imgcalcarel"
-            ></img>
-            <p class="precoprodrel">Preço R$ 2022,00</p>
-            <button> Adicionar ao carrinho</button>
-          </div>
-
-          <div class="prodrelacionado">
-            <img
-              src={imagemCalca}
-              alt="Foto do Produto"
-              className="imgcalcarel"
-            ></img>
-
-            <p class="precoprodrel">Preço R$ 17,00</p>
-            <button> Adicionar ao carrinho</button>
-          </div>
-
-          <div class="prodrelacionado">
-            <img
-              src={imagemCalca}
-              alt="Foto do Produto"
-              className="imgcalcarel"
-            ></img>
-
-            <p class="precoprodrel">Preço R$ 22,00</p>
-            <button> Adicionar ao carrinho</button>
-          </div>
-
-          <div class="prodrelacionado">
-            <img
-              src={imagemCalca}
-              alt="Foto do Produto"
-              className="imgcalcarel"
-            ></img>
-
-            <p class="precoprodrel">Preço R$ 2022,00</p>
-            <button> Adicionar ao carrinho</button>
-          </div>
+          <p class="precoprodrel">Preço R$ 17,00</p>
+          <button> Adicionar ao carrinho</button>
         </div>
+        <div class="prodrelacionado">
+          <img
+            src={imagemCalca}
+            alt="Foto do Produto"
+            className="imgcalcarel"
+          ></img>
+
+          <p class="precoprodrel">Preço R$ 22,00</p>
+          <button> Adicionar ao carrinho</button>
+        </div>
+
+        <div class="prodrelacionado">
+          <img
+            src={imagemCalca}
+            alt="Foto do Produto"
+            className="imgcalcarel"
+          ></img>
+          <p class="precoprodrel">Preço R$ 2022,00</p>
+          <button> Adicionar ao carrinho</button>
+        </div>
+
+        <div class="prodrelacionado">
+          <img
+            src={imagemCalca}
+            alt="Foto do Produto"
+            className="imgcalcarel"
+          ></img>
+
+          <p class="precoprodrel">Preço R$ 17,00</p>
+          <button> Adicionar ao carrinho</button>
+        </div>
+
+        <div class="prodrelacionado">
+          <img
+            src={imagemCalca}
+            alt="Foto do Produto"
+            className="imgcalcarel"
+          ></img>
+
+          <p class="precoprodrel">Preço R$ 22,00</p>
+          <button> Adicionar ao carrinho</button>
+        </div>
+
+        <div class="prodrelacionado">
+          <img
+            src={imagemCalca}
+            alt="Foto do Produto"
+            className="imgcalcarel"
+          ></img>
+
+          <p class="precoprodrel">Preço R$ 2022,00</p>
+          <button> Adicionar ao carrinho</button>
+        </div>
+      </div>
       <Link to="/">Voltar para o Início</Link>
     </div>
   );
